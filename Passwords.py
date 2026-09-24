@@ -36,7 +36,7 @@ def test_pass():
 
     if errors:
         print("\n".join(errors))
-    elif len(errors) == 0:
+    elif not errors:
         print("Password is Strong")
 
 
